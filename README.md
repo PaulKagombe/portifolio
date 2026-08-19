@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Paul Nabu — Portfolio
 
 A React + Vite portfolio site: hero, about, three design case studies (Crafta, MKV, Lumira), and contact.
@@ -31,3 +32,7 @@ Everything lives in `src/App.jsx`:
 Images are in `src/assets/`. Swap them out and update the corresponding `import` at the top of `App.jsx` to change or add project images.
 
 Colors, fonts and spacing live in `src/index.css` (tokens) and `src/App.css` (layout).
+=======
+# portifolio
+my portifolio
+>>>>>>> eb8a3fbf19af4a6039a53a27de425e5fcf5d633a

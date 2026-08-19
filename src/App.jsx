@@ -1,4 +1,4 @@
-import { useMobileNav } from './hooks/useMobileNav'
+import { UseMobileNav } from './hooks/UseMobileNav'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import RegistrationBar from './components/RegistrationBar'
