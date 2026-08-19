@@ -1,0 +1,72 @@
+:root {
+  --paper: #E8E1CC;
+  --paper-2: #F1ECDD;
+  --ink: #17160F;
+  --ink-70: rgba(23, 22, 15, 0.7);
+  --ink-45: rgba(23, 22, 15, 0.45);
+  --forest: #17301F;
+  --forest-2: #1E3B27;
+  --gold: #B9853A;
+  --gold-soft: #D7AE72;
+  --teal: #14ADA3;
+  --line: rgba(23, 22, 15, 0.2);
+  --line-soft: rgba(23, 22, 15, 0.12);
+  --line-on-forest: rgba(232, 225, 204, 0.24);
+
+  --font-display: 'Fraunces', 'Iowan Old Style', serif;
+  --font-body: 'Space Grotesk', 'Helvetica Neue', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--forest);
+  outline-offset: 3px;
+}
