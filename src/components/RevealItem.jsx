@@ -1,4 +1,4 @@
-import { useReveal } from '../hooks/useReveal'
+import { useReveal } from "../hooks/UseReveal";
 
 /**
  * Wraps a child element with the `.reveal` class and an IntersectionObserver
